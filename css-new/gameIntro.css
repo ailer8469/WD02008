@@ -1,0 +1,617 @@
+.bnr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  position: relative;
+  padding-bottom: 70px;
+  margin-top: 60px;
+}
+.bnr img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.game-section{
+  position: relative;
+  width:calc(100vw - 300px);
+  height: 100%;
+}
+.option-img-container{
+  width: 100px;
+}
+
+.intro {
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-con{
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(142, 142, 142);
+  margin: 20px;
+  padding: 30px 30px;
+  border-radius: 30px;
+}
+
+.intro-con-de,.serve-box-de{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: -10px 0;
+}
+.gamintro-fea-card .intro-con-de{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 0;
+  margin: 0;
+}
+.intro-con-de img{
+  width: 20px;
+}
+.intro-title h2{
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color:#1d1d1d;
+  
+}
+.intro-title{
+  min-width: 210px;
+  width:30%;
+  background-image: url(../pic/title.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:contain;
+  margin: auto;
+  position: relative;
+  margin-top: -10px;
+}
+
+
+
+.intro .talk{
+  font-size: 25px;
+  color: rgb(228, 0, 0);
+  margin: 30px 0px;
+  font-weight: bolder;
+}
+.intro p{
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: bold;
+  color: rgb(45, 45, 45);
+  padding-bottom: 40px;
+}
+
+.intro button{
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 40px 0px;
+}
+
+.gamePic {
+  width: 100%;
+  height: 500px;
+  background-color: black
+}
+
+.gamePic img {
+  width: 70%;
+  height: 500px;
+  display: block;
+  margin: auto;
+}
+
+.gameintro {
+  width: 100%;
+  background-color: #FFDF00;
+  background-image: url(../pic/zeebro.jpg),url(../pic/zeebro.jpg);
+  background-size: 5vh;
+  background-repeat: repeat-y;
+  background-position:left,right;
+  padding-bottom: 150px;
+  padding-top: 100px;
+}
+
+.gameintro-fea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.gamintro-fea-card{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: start;
+  min-width: 300px;
+  height:220px ;
+  border:2px solid rgb(41, 41, 41); 
+  background-color: white;
+  margin: 5px;
+  
+}
+
+
+.gamintro-fea-card h4{
+  font-size: 45px;
+  padding: 10px;
+}
+.gamintro-fea-card h5{
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bolder;
+}
+.gamintro-fea-card p{
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+.star p{
+  font-weight:bolder;
+}
+
+.time-element-p{
+  color: rgb(0, 0, 0);
+}
+.gamintro-fea-card span,
+  .gameintro-detail span{
+  color: red;
+  font-weight: bolder;
+}
+
+.gameintro-detail{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  max-width: 900px;
+  width:100%;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  font-weight: 600;
+}
+
+.gameintro-detail h4{
+  font-size: 30px;
+  margin: 40px 0;
+}
+.gameintro-detail h4:after,.gameintro-detail h5{
+  content: "";
+  display: block;
+  border-bottom: 2px solid black;
+  width: 40%;
+  margin-top: 10px;
+}
+
+.gameintro-detail p,.gameintro-detail li{
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+
+.slt {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* 預約環節 */
+
+.serve{
+  background-color: rgb(224, 224, 224);
+  padding-bottom: 80px;
+}
+.serve-title h2{
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color:#FFDF00; 
+}
+.serve-title{
+  min-width: 210px;
+  width:30%;
+  background-image: url(../pic/title-bk.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:contain;
+  margin: auto;
+  position: relative;
+  padding: 20px;
+}
+
+.serve-con-bar h4{
+  background-color: black;
+  display: inline-block;
+  padding: 12px 40px;
+  margin: 30px;
+  color: white;
+  font-family: sans-serif;
+}
+.serve-con-step{
+  width: 270px;
+  height:100%;
+  background-color: #1d1d1d;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+}
+.serve-con-step .dash,.serve-con-step .line{
+  position: relative;
+  left: 18px;
+  bottom: 1px;
+}
+.serve-con-bar{
+  width: 300px;
+  background-color: white;
+  border: 2px solid #848484;
+  border-radius: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction:column;
+  justify-content: left;
+  align-items: center;
+
+}
+.serve-con-bar p{
+  color: #1d1d1d;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.serve-con-bar .next{
+  margin: 10px;
+  margin-left: auto;
+
+}
+.serve-con-step span{
+  color: #c7c7c7;
+  font-size: 15px;
+ position: relative;
+ bottom: 12px;
+ padding-left: 10px;
+}
+
+.serve-con-bar h5{
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+}
+#step2-detail{
+  font-size: 13px;
+  color: #828282;
+  padding: 10px 20px;
+}
+
+.serve-con-bar #step4{
+  color: #323232;
+  font-size: 14px;
+ position: relative;
+ bottom: 12px;
+ padding: 20px;
+ margin: 20px auto;
+}
+
+
+.serve-con{
+  display: flex;
+  padding: 30px;
+  justify-content:space-evenly;
+}
+
+.serve-box{
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(142, 142, 142);
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.light img,.dark img{
+  width: 40px;
+}
+.dark{
+  opacity: 0.5;
+}
+
+
+.next button{
+  background-color:#FFDF00;
+  border-radius: 20px;
+  border:2px  solid #000000;
+  color: rgb(0, 0, 0);
+  padding: 4px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer; 
+  transition: 0.5s;
+  margin: 10px;
+}
+
+.next button:hover{
+  color: #FFDF00;
+  background-color: #000;
+}
+
+.step-button,.next{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.step-button button,.next button:nth-child(1){
+  background-color:#aeaeae;
+  border-radius: 20px;
+  border:2px  solid #000000;
+  color: rgb(0, 0, 0);
+  padding: 4px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px; 
+  cursor: pointer; 
+  transition: 0.5s;
+  margin: 10px;
+}
+
+.step-button button:hover,.next button:nth-child(1):hover{
+  color: #aeaeae;
+  background-color: #000;
+}
+
+.step-button button:nth-child(2){
+  background-color:#30DCE1;
+}
+
+.step-button button:nth-child(2):hover{
+  color:#30DCE1;
+  background-color: #1d1d1d;
+}
+
+.serve-box-1 button:nth-child(1){
+  position: relative;
+  margin-left: auto;
+  background-color: #FFDF00;
+}
+
+.serve-box-1 button:nth-child(1):hover{
+  color: #FFDF00;
+  background-color: black;
+}
+
+#step4-retrnGme{
+  background-color: #30DCE1;
+}
+#step4-retrnGme:hover{
+  background-color: black;
+  color: #30DCE1;
+}
+
+/* step3 */
+.serve-box-3 form{
+margin: 12px auto;
+padding: 3px;
+font-size: 14px;
+line-height: 1.3;
+}
+
+.serve{
+  display: none;
+}
+
+.serve-box-3 span{
+  color: red;
+}
+.serve-con-step span{
+  color: white;
+}
+
+/* -------------------RWD--------- */
+@media screen and (max-width:1080px) { 
+  .bnr {
+    height: 300px;
+  padding-top: 0;
+margin-top: 0;
+padding-bottom: 0;}
+
+.gamePic img{
+  width: auto;
+} 
+.gameintro-fea {
+  align-items: stretch;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+.gameintro-detail {
+  margin: 0 130px;
+  width: auto;
+}
+.bnr{
+  margin-top: 0;
+}
+.serve-box{
+  width: 90%;
+}
+.intro-con{
+  width: 87%;
+}
+.serve-con-step {
+  width: 300px;
+  padding: 20px;
+}
+}
+@media screen and (max-width:940px) {
+  .intro-con{
+  width: 90%;
+}
+
+
+}
+@media screen and (max-width:768px) {
+
+  .game-section{
+    width:100%;
+    height: 100%;
+}
+
+  .menu-wrap{
+    display: none;
+  }
+
+  .header-768{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 66;
+  }
+
+  .header-768 img{
+    max-width: 250px;
+    padding: 20px;
+  }
+  .menu-768 {
+    display: block;
+  }
+
+  .gameintro-detail p, .gameintro-detail li {
+    font-size: 18px;
+  }
+  
+ /* burger */
+ .burger {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.burger-pic{
+  cursor: pointer;
+}
+
+#burger_menu {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.856);
+  overflow: hidden;
+  width: 100%;
+}
+
+#burger_menu li {
+  height: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+#burger_menu a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight:bold;
+  color: white;
+}
+#burger_menu a:hover{
+  color: #FFDF00;
+}
+/* ------------------------------------ */
+
+/* -----------------nav animation */
+.active {
+display: block !important;
+position: absolute;
+padding: 10px;
+top: 90px;
+width:calc(100vw+25px);
+animation: change 1s forwards;
+}
+
+@keyframes change {
+from { height: 0;}
+to { height: 300px;}
+}
+
+.goBack {
+animation: goBack 1s forwards;}
+@keyframes goBack {
+from {height: 300px;}
+to {height: 0px;}
+}
+
+
+ /* ------------------------------------ */
+ .shadowborder {
+  display: none;
+}
+.serve-con{
+  padding: 10px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.intro p{
+  text-align: left;
+}
+.serve-con-step {
+  width: 80%;
+  align-items: flex-start;
+  padding-left: 30px;}
+.dark{
+  display: none;
+}
+.serve-con-step .dash, .serve-con-step .line{
+  display: none;
+}
+
+.serve-con-bar {
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 0;}
+
+.gameintro-detail {margin: 0 70px;}
+}
+@media screen and (max-width:692px) {
+  .ftBox2{
+    margin-top: 30px;
+  }
+}
+ @media screen and (max-width:500px) {
+    .intro p {
+      font-size: 17px;}
+
+    .gamePic img {margin-left: -130px;}
+    .gameintro-detail {margin: 0 55px;}
+    
+}

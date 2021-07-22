@@ -1,0 +1,11 @@
+<svg id="選擇遊戲" xmlns="http://www.w3.org/2000/svg" width="124.279" height="124.279" viewBox="0 0 124.279 124.279">
+  <g id="_01" data-name="01">
+    <path id="Path_96" data-name="Path 96" d="M266.185,141.6A62.139,62.139,0,1,1,328.322,79.46,62.14,62.14,0,0,1,266.185,141.6" transform="translate(-204.043 -17.323)" fill="#fff"/>
+  </g>
+  <circle id="Ellipse_6" data-name="Ellipse 6" cx="40.902" cy="40.902" r="40.902" transform="translate(21.238 21.236)" fill="#595959"/>
+  <circle id="Ellipse_7" data-name="Ellipse 7" cx="40.902" cy="40.902" r="40.902" transform="translate(19.824 21.237)" fill="#2c00ff"/>
+  <g id="Group_55" data-name="Group 55" transform="translate(44.756 49.525)">
+    <path id="Path_97" data-name="Path 97" d="M224.039,53.032q-4.888,0-7.312-3.316T214.3,40.856q0-5.543,2.426-8.861t7.312-3.32q4.882,0,7.307,3.32t2.426,8.861q0,5.543-2.426,8.861T224.039,53.032ZM220.571,35.18a12.432,12.432,0,0,0-1.117,5.689,12.439,12.439,0,0,0,1.117,5.693,3.861,3.861,0,0,0,6.932,0,12.439,12.439,0,0,0,1.117-5.693A12.432,12.432,0,0,0,227.5,35.18a3.861,3.861,0,0,0-6.932,0Z" transform="translate(-214.302 -28.675)" fill="#fff"/>
+    <path id="Path_98" data-name="Path 98" d="M219.437,28.8h9.537V52.344h-5.056V33.279h-4.48Z" transform="translate(-197.035 -28.258)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Alvaro Trigo Lopez" />
+    <meta name="description"
+        content="multiscroll plugin by Alvaro Trigo. Create divided multi-scrolling pages with two splited vertical layouts or panels." />
+    <meta name="keywords"
+        content="multiscroll,jquery,alvaro,trigo,plugin,divided,splitscreen,screen,panels,layouts,vertical,split,splited" />
+    <meta name="Resource-type" content="Document" />
+
+    <!-- link -->
+    <link rel="stylesheet" href="css-new/reset.css">
+    <link rel="stylesheet" href="css-new/global.css">
+    <link rel="stylesheet" href="css-new/game.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Noto+Sans+TC&display=swap"
+        rel="stylesheet">
+
+    <!-- aos -->
+    <link rel="stylesheet" href="dist/aos.css" />
+    <title>天黑請閉眼💡密室逃脫【Game】</title>
+</head>
+
+<body>
+    <nav class="header">
+        <div class="menu-wrap">
+            <img src="pic/border.png" alt="" id="header-pic">
+            <div class="menu" id="header-sroll">
+                <div class="menuLogo">
+                    <a href="Index.html"><img src="pic/logo_fot_2.png" alt=""></a>
+                    <h3>ESCAPE GAME</h3>
+                    <p>密室逃脫／實境體驗／企劃活動</p>
+                </div>
+                <div class="menuLink">
+                    <ul>
+                        <li>
+                            <a class="dropBt" href="AboutMe.html">
+                                <div class="menu-li-arrow"></div>關於我們
+                            </a>
+                        </li>
+
+                        <div class="dropdown">
+                            <li>
+                                <a class="dropBt" href="Game.html">
+                                    <div class="menu-li-arrow">▶</div>主題遊戲
+                                </a>
+                            </li>
+
+                            <div class="dropdown-con">
+                                <a href="GameIntro1.html">☐ X伯爵的委託</a>
+                                <a href="GameIntro2.html">☐ 森林之心</a>
+                                <a href="GameIntro.html">☐ 是不是勇者</a>
+                                <a href="GameIntro.html">☐ 控制獄</a>
+                                <a href="GameIntro.html">☐ 宇宙逃脫Vicky</a>
+                            </div>
+                        </div>
+
+                        <li>
+                            <a class="dropBt" href="Location.html">
+                                <div class="menu-li-arrow"></div>遊戲地點
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropBt" href="FAQs.html">
+                                <div class="menu-li-arrow"></div>相關問題
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="menu-bt">
+                    <a href="Game.html"><button class="explore">前往遊戲</button></a>
+                </div>
+
+                <div class="menu-social">
+                    <div class="menu-social-link ">
+                        <a href=""><img src="pic/fb.svg" alt=""></a>
+                    </div>
+                    <div class="menu-social-link">
+                        <a href=""><img src="pic/line.svg" alt=""></a>
+                    </div>
+                    <div class="menu-social-link">
+                        <a href=""><img src="pic/ins.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- burger -->
+
+        <div class="menu-768">
+            <div class="header-768">
+                <a href="Index.html"><img src="pic/logo_fot_2_w.png" alt=""></a>
+                <div class="burger">
+                    <div class="burger-pic" id="burger-pic" onclick="burgerClick()">
+                        <img src="pic/menu.svg">
+                    </div>
+
+                    <ul id="burger_menu">
+                        <li><a href="AboutMe.html">關於我們</a></li>
+                        <li><a href="Game.html">主題遊戲</a></li>
+                        <li><a href="Location.html">遊戲地點</a></li>
+                        <li><a href="FAQs.html">相關問題</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </nav>
+
+
+    <div class="game-section">
+        <div class="bk-game">
+
+            <ul id="menu">
+                <li data-menuanchor="first"><a href="#first">X伯爵的委託</a></li>
+                <li data-menuanchor="second"><a href="#second">森林之心</a></li>
+                <li data-menuanchor="third"><a href="#third">是不是勇者</a></li>
+                <li data-menuanchor="forth"><a href="#forth">控制獄</a></li>
+                <li data-menuanchor="five"><a href="#five">宇宙逃脫Vicky</a></li>
+            </ul>
+
+            <div id="myContainer">
+
+                <div class="left">
+                    <div class="section" id="left1">
+
+                        <h3>X伯爵的委託</h3>
+                        <span>
+                            “ 來抓我啊！ 如果你辦得到？” <br>
+                        </span>
+                        <h4>▶▶▶</h4>
+                        <p>
+                            古堡附近常有年輕貌美的女性失蹤，而伯爵的古堡裡竟然有兇手留下的挑釁字樣！ 最後連伯爵夫人也不見蹤影，警方前來調查卻一無所獲，於是伯爵委託偵探們到古堡調查。
+                            不料來到古堡的偵探，連伯爵都還未見上一面，就莫名被迷昏關進地牢，昏迷前聽見：「一個小時後再來收拾你們……」
+                        </p>
+
+                        <a href="GameIntro1.html">
+                            <button class="btn-hover color">
+                                逃出地牢
+                            </button>
+                        </a>
+
+                    </div>
+
+                    <div class="section" id="left2">
+
+                        <h3>森林之心</h3>
+                        <span>
+                            “ 凡人，進入後便無法離開。” <br>
+                        </span>
+                        <h4>▶▶▶</h4>
+                        <p>
+                            冒險隊欲拯救精靈族的危機，並且順利進入傳說中遺落的神秘境地。
+                        </p>
+                        <p>卻發現了有更艱鉅的挑戰在等著他們……究竟在重重震撼地衝擊中，所有人該如何順利逃脫呢？</p>
+
+                        <a href="GameIntro2.html">
+                            <button class="btn-hover color-2">
+                                進入森林
+                            </button>
+                        </a>
+                    </div>
+
+                    <div class="section" id="left3">
+
+                        <h3>是不是勇者</h3>
+                        <span>
+                            “ 世界，就靠我們來拯救！” <br>
+                        </span>
+                        <h4>▶▶▶</h4>
+                        <p>
+                            點陣世界的大魔王即將復活！羼弱的歌布林聚落無力抵抗！ 擁有智慧的人類能夠阻擋住來自邪惡的危機嗎？
+                        </p>
+                        <p>是不是勇者——即將上線</p>
+
+
+                        <a href="GameIntro.html">
+                            <button class="btn-hover color-3">
+                                拯救世界
+                            </button>
+                        </a>
+
+
+                    </div>
+
+                    <div class="section" id="left3">
+                        <h3>控制獄</h3>
+                        <span>
+                            “釋放大腦空間，獲得更健全的靈魂” <br>
+                        </span>
+                        <h4>▶▶▶</h4>
+                        <p>
+                            收到記憶消除實驗邀請的你們，來到了由ISAAC公司所主導的實驗室中戴上頭盔，準備摘除記憶當中最糟糕的那部分。
+                        </p>
+                        <p>但等待著你們的到底是解脫的救贖，還是更沉重的噩夢……</p>
+
+
+                        <a href="GameIntro.html">
+                            <button class="btn-hover color-4">
+                                前往實驗
+                            </button>
+                        </a>
+                    </div>
+
+                    <div class="section" id="left3">
+                        <h3>宇宙逃脫Vicky</h3>
+                        <span>＂我很乖，為什麼你要躲起來讓我找不到？＂<br>
+                        </span>
+                        <h4>▶▶▶</h4>
+                        <p>
+                            「聖誕老人求求你，我不要禮物了，你把爸爸帶回來好不好？」
+                        </p>
+                        <p>2034 年的平安夜，小女孩坐在客廳的聖誕樹下 數著樹上掛燈的顏色，念念有詞的望向門口，盼望那個熟悉的身影能再次出——
+                        </p>
+
+
+                        <a href="GameIntro.html">
+                            <button class="btn-hover color-5">
+                                前往宇宙
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="right">
+                    <div class="section" id="right1">
+                        <img src="pic/room/1.jpg" alt="">
+                    </div>
+
+                    <div class="section" id="right2">
+                        <img src="pic/room/2.png" alt="">
+                    </div>
+
+                    <div class="section" id="right3">
+                        <img src="pic/room/3.png" alt="">
+                    </div>
+
+                    <div class="section" id="right3">
+                        <img src="pic/room/5.png" alt="">
+                    </div>
+
+                    <div class="section" id="right3">
+                        <img src="pic/room/4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="shadowborder"></div>
+
+    </div>
+
+    <script src="dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+    <script src="javascript/jquery.min.js"></script>
+    <script src="javascript/global.js"></script>
+
+
+    <!-- multiscroll -->
+
+    <link rel="stylesheet" type="text/css" href="game-slide/jquery.multiscroll.css" />
+    <link rel="stylesheet" type="text/css" href="css-new/examples.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="game-slide/dist/vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="game-slide/jquery.multiscroll.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#myContainer').multiscroll({
+                sectionsColor: ['rgba(0, 0, 0)', '#4BBFC3', '#7BAABE', '#3C3C3C', '		#D9B3B3'],
+                anchors: ['first', 'second', 'third', 'forth', 'five'],
+                menu: '#menu',
+                loopBottom: true,
+                loopTop: true,
+                sectionSelector: '.section',
+                leftSelector: '.left',
+                rightSelector: '.right',
+            });
+        });
+    </script>
+
+</body>
+
+</html>

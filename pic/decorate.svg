@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="decorate" transform="translate(-104 -418)">
+    <circle id="Ellipse_24" data-name="Ellipse 24" cx="14" cy="14" r="14" transform="translate(104 418)" fill="#5a5a5a"/>
+    <path id="Icon_awesome-plus" data-name="Icon awesome-plus" d="M14.625,8.438H9.563V3.375A1.125,1.125,0,0,0,8.438,2.25H7.313A1.125,1.125,0,0,0,6.188,3.375V8.438H1.125A1.125,1.125,0,0,0,0,9.563v1.125a1.125,1.125,0,0,0,1.125,1.125H6.188v5.063A1.125,1.125,0,0,0,7.313,18H8.438a1.125,1.125,0,0,0,1.125-1.125V11.813h5.063a1.125,1.125,0,0,0,1.125-1.125V9.563A1.125,1.125,0,0,0,14.625,8.438Z" transform="translate(119.591 419.272) rotate(45)" fill="#fff"/>
+  </g>
+</svg>

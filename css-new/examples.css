@@ -1,0 +1,530 @@
+/* Reset CSS
+ * --------------------------------------- */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+
+/* Custom CSS
+ * --------------------------------------- */
+
+.ms-section {
+    text-align: left;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 10px;
+    background: rgba(214, 214, 214, 0.952);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#menu li.active {
+    background: #666;
+    background: rgb(255, 211, 36);
+    color: #000;
+}
+
+#menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+#menu li.active a:hover {
+    color: #000;
+}
+
+#menu li:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#menu li a,
+#menu li.active a {
+    padding: 9px 18px;
+    display: block;
+}
+
+#menu li.active a {
+    color: #000;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#infoMenu {
+    height: 20px;
+    color: #f2f2f2;
+    position: fixed;
+    z-index: 70;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 0.9em;
+    padding: 8px 0 8px 0;
+}
+
+#infoMenu ul {
+    padding: 0 40px;
+}
+
+#infoMenu li a {
+    display: block;
+    margin: 0 22px 0 0;
+    color: #333;
+}
+
+#infoMenu li a:hover {
+    text-decoration: underline;
+}
+
+#infoMenu li {
+    display: inline-block;
+    position: relative;
+}
+
+#examplesList {
+    display: none;
+    background: #282828;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 20px;
+    float: left;
+    position: absolute;
+    bottom: 29px;
+    right: 0;
+    width: 638px;
+    text-align: left;
+}
+
+#examplesList ul {
+    padding: 0;
+}
+
+#examplesList ul li {
+    display: block;
+    margin: 5px 0;
+}
+
+#examplesList ul li a {
+    color: #BDBDBD;
+    margin: 0;
+}
+
+#examplesList ul li a:hover {
+    color: #f2f2f2;
+}
+
+#examplesList .column {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+
+/* Demos Menu
+ * --------------------------------------- */
+
+#demosMenu {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+}
+
+
+/* --------------------------------------- */
+
+.game-section{
+    position: relative;
+    width:calc(100vw - 300px);
+    height: 100%;
+ }
+  
+
+.here::before {
+    bottom: 332px;
+}
+
+.game-title {
+    width: 30%;
+    min-width: 210px;
+    background-image: url(../pic/title.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    margin: auto;
+    margin-bottom: -30px;
+    position: relative;
+}
+
+.game-title h1 {
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#right1 img,
+#right2 img,
+#right3 img,
+#right4 img,
+#right5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left .section {
+    padding: 0 70px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.ms-tableCell {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+element.style {
+    height: 0;
+}
+
+.left {
+    font-weight: bold;
+}
+
+.left h3 {
+    font-size: 40px;
+    color: white;
+}
+
+.left span {
+    color: red;
+    font-size: 23px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.left h4 {
+    color: white;
+}
+
+.left p {
+    font-size: 15px;
+    color: #BDBDBD;
+    line-height: 1.7;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+.left :nth-child(2) h3,
+.left :nth-child(3) h3 {
+    margin-top: 30px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.left :nth-child(2) span {
+    color: rgb(255, 255, 255);
+}
+
+.left :nth-child(3) span {
+    color: rgb(202, 0, 0);
+}
+
+.left :nth-child(2) h4,
+.left :nth-child(3) h4,
+.left :nth-child(5) h4 {
+    color: rgb(0, 0, 0);
+}
+
+.left :nth-child(2) p,
+.left :nth-child(3) p {
+    color: #383838;
+}
+
+.left :nth-child(5) p {
+    color: #000000;
+}
+
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.btn-hover.color-4 {
+    background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);
+    box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}
+
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+.btn-hover.color-5 {
+    background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #FBB03B);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+
+/* -------------------RWD--------- */
+
+@media screen and (max-width:1080px) {
+    #menu {
+        height: 30px;
+        margin: 20px
+    }
+    .left :nth-child(2) h3,
+    .left :nth-child(3) h3 {
+        font-size: 32px;
+    }
+    .left span {
+        font-size: 20px;
+    }
+    .left p,
+    .left h4 {
+        font-size: 13px;
+    }
+    .menuLink {
+        margin-top: 0;
+    }
+    .menuLink li {
+        margin: 8px;}
+}
+
+@media screen and (max-width:768px) {
+
+    #menu{
+        display: none;
+    }
+    .game-section{
+        width:100%;
+        height: 100%;
+    }
+    
+      .menu-wrap{
+        display: none;
+      }
+    
+      .header-768{
+        background-color:black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        z-index: 66;
+      }
+    
+      .header-768 img{
+        max-width: 250px;
+        padding: 20px;
+      }
+      .menu-768 {
+        display: block;
+      }
+      
+      /* burger */
+    .burger {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    
+    .burger-pic{
+      cursor: pointer;
+    }
+    
+    #burger_menu {
+      display: none;
+      background-color: rgba(0, 0, 0, 0.856);
+      overflow: hidden;
+      width: 100%;
+    }
+    
+    #burger_menu li {
+      height: 60px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-end;
+      align-items: center;
+    }
+    
+    #burger_menu a {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight:bold;
+      color: white;
+    }
+    #burger_menu a:hover{
+      color: #FFDF00;
+    }
+    /* ------------------------------------ */
+    
+    /* -----------------nav animation */
+    .active {
+    display: block !important;
+    position: absolute;
+    margin-top: 75px;
+    width:calc(100vw+25px);
+    animation: change 1s forwards;
+    }
+    
+    @keyframes change {
+    from { height: 0;}
+    to { height: 300px;}
+    }
+    
+    .goBack {
+    animation: goBack 1s forwards;}
+    @keyframes goBack {
+    from {height: 300px;}
+    to {height: 0px;}}
+    
+     /* ------------------------------------ */
+     .shadowborder {
+      display: none;
+    }
+    .left .section {
+        padding: 0 40px;}
+        .left p, .left h4 {
+            font-size: 16px;
+            line-height: 1.4;
+        }
+    
+}
+@media screen and (max-width:768px) {
+.btn-hover {
+    width: 160px; 
+    margin: 20px auto;
+   
+}
+}

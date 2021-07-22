@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="77" viewBox="0 0 76 77">
+  <g id="step3" transform="translate(-172 -869)">
+    <g id="Ellipse_22" data-name="Ellipse 22" transform="translate(172 869)" fill="none" stroke="#ffdf00" stroke-width="7">
+      <ellipse cx="38" cy="38.5" rx="38" ry="38.5" stroke="none"/>
+      <ellipse cx="38" cy="38.5" rx="34.5" ry="35" fill="none"/>
+    </g>
+    <text id="_3" data-name="3" transform="translate(197 924)" fill="#fff" font-size="46" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">3</tspan></text>
+  </g>
+</svg>

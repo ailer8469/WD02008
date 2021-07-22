@@ -1,0 +1,364 @@
+.q{
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #FFDF00;
+  background-image: url(../pic/zeebro.jpg),url(../pic/zeebro.jpg);
+  background-size: 5vh;
+  background-repeat: repeat-y;
+  background-position:left,right;
+  margin: auto;
+
+}
+
+
+
+.here::before{
+  bottom: 258px;
+}
+.q-title h1{
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  color:#FFDF00;
+  
+}
+.q-title{
+  width:30%;
+  min-width: 210px;
+  background-image: url(../pic/title-bk.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:contain;
+  margin: auto;
+}
+
+.q-box{
+  background: white;
+  width:80%;
+  margin: 30px auto;
+  border: 3px solid rgb(142, 142, 142);
+  padding: 40px;
+}
+
+.q-box-card{
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
+  padding-left: 60px;
+}
+
+.q-box-card:hover{
+  color: #ff0000;
+}
+
+
+.question {
+  position: relative;
+  background: #30DCE1;
+  border:2px dashed rgb(72, 72, 72);
+  padding: 10px 40px 10px 30px;
+  display: block;
+  width:80%;
+  cursor: pointer;
+}
+
+.answers {
+  width:80%;
+  background-color: rgb(224, 224, 224);
+  padding: 0px 40px 0px 100px;
+  margin-bottom: 20px;
+  height: 0;
+  line-height: 1.5;
+  overflow: hidden;
+  /* z-index: -1; */
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .7s ease;
+  -moz-transition: .7s ease;
+  -o-transition: .7s ease;
+  transition: .7s ease;
+}
+
+.answers p{
+  color: rgb(52, 52, 52);
+  font-weight: bold;
+  font-size: 14px;
+}
+.questions:checked ~ .answers{
+  height: auto;
+  opacity: 1;
+  padding: 15px;
+}
+
+.plus {
+  font-weight: 900;
+  color: white;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5px;
+  z-index: 5;
+  font-size: 2em;
+  line-height: 100%;
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; 
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  transition: 0.5s;
+}
+.plus:hover{
+  transform: rotate(45deg);
+}
+
+.questions:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.questions {
+  display: none;
+}
+
+.q-box-social{
+  background: white;
+  width:80%;
+  margin: 40px auto;
+  border: 3px solid rgb(142, 142, 142);
+  padding: 40px;
+  padding-bottom: 60px;
+}
+
+.q-con p{
+  padding-left: 50px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.q-con-click{
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.q-con-click .social{
+  width: 100px;
+  height: 80px;
+  padding: 10px;
+  margin: auto 30px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bolder;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(8, 8, 8);
+  background-color: #f7f1f1;
+  border-radius: 10px;
+  border: 2px solid rgb(30, 30, 30);
+  box-shadow: 0 10px #30DCE1; 
+  transition: 0.5s;
+}  
+.q-con-click .social:active {
+  background-color: #ffffff;
+  box-shadow: 0 5px #229a9f;
+  transform: translateY(5px);
+}
+
+.q-con-click .social:hover {
+  background-color:#FFDF00;
+  box-shadow: 0 5px #d8d8d8;
+  transform: translateY(5px);
+}
+.game-section{
+  position: relative;
+  width:calc(100vw - 300px);
+  height: 100%;
+}
+
+
+/* -------------------RWD--------- */
+@media screen and (max-width:1080px) {
+  .q-con-click{
+   flex-wrap: wrap;
+   padding: 30px;
+  }
+  .q-con-click .social{
+    margin: 20px 30px;
+  }
+  .q-con p {
+    text-align: center;
+    margin-bottom: 0;
+    padding-left: 0;
+    font-size: 18px;
+}
+}
+@media screen and (max-width:768px) {
+  .game-section{
+    width:100%;
+    height: 100%;
+}
+
+  .menu-wrap{
+    display: none;
+  }
+
+  .header-768{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 66;
+  }
+
+  .header-768 img{
+    max-width: 250px;
+    padding: 20px;
+  }
+  .menu-768 {
+    display: block;
+  }
+  
+  /* burger */
+.burger {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.burger-pic{
+  cursor: pointer;
+}
+
+#burger_menu {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.856);
+  overflow: hidden;
+  width: 100%;
+}
+
+#burger_menu li {
+  height: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+#burger_menu a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight:bold;
+  color: white;
+}
+#burger_menu a:hover{
+  color: #FFDF00;
+}
+/* ------------------------------------ */
+
+/* -----------------nav animation */
+.active {
+display: block !important;
+position: absolute;
+padding: 10px;
+top: 90px;
+width:calc(100vw+25px);
+animation: change 1s forwards;
+}
+
+@keyframes change {
+from { height: 0;}
+to { height: 300px;}
+}
+
+.goBack {
+animation: goBack 1s forwards;}
+@keyframes goBack {
+from {height: 300px;}
+to {height: 0px;}
+}
+
+ /* ------------------------------------ */
+ .shadowborder {
+  display: none;
+}
+  .q-title{
+    width: auto;
+  }
+
+  .q-box-card {
+    font-size: 17px;
+    margin: 20px;
+    width: auto;
+}
+.answers p{
+  font-size: 22px;
+}
+.question{
+  padding:40px;
+  font-size:22px;
+  width: 90%;
+  text-align: center;
+  line-height: 1.8;
+}
+.answers{
+  width: 90%;
+  padding:20px 0;
+  line-height: 1.8;
+}
+.q-con-click .social {
+  margin: 20px 10px;
+}
+
+.q-con-click .social {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  margin:30px 10px;
+}
+.q-con p{
+  font-size: 20px;
+}
+}
+@media screen and (max-width:500px) {
+
+.q-box-card{
+  padding-left: 0;
+  width: 100%;
+  margin:0;
+  padding-bottom: 10px;
+}
+.question{
+  margin: auto;
+}
+.questions:checked ~ .answers{
+  margin: auto;
+}
+.q-con p{
+  font-size: 16px;
+}
+.ftBox2{
+  margin-top: 30px;
+}
+.plus{
+  margin-left: 30px;
+  margin-top: 7px;
+}
+}

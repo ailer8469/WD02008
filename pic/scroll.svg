@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="scroll" transform="translate(-413 -1506)">
+    <g id="Ellipse_26" data-name="Ellipse 26" transform="translate(413 1506)" fill="#ffdf00" stroke="#707070" stroke-width="3" stroke-dasharray="7">
+      <circle cx="40" cy="40" r="40" stroke="none"/>
+      <circle cx="40" cy="40" r="38.5" fill="none"/>
+    </g>
+    <path id="Icon_ionic-md-arrow-dropdown" data-name="Icon ionic-md-arrow-dropdown" d="M9,13.5,29.05,38.267,49.1,13.5Z" transform="translate(424.45 1524.617)"/>
+  </g>
+</svg>

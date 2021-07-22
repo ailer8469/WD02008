@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73" height="73" viewBox="0 0 73 73">
+  <g id="go_top" data-name="go top" transform="translate(-829 -1070)">
+    <g id="Rectangle_87" data-name="Rectangle 87" transform="translate(829 1070)" fill="none" stroke="#707070" stroke-width="1" stroke-dasharray="7">
+      <rect width="73" height="73" stroke="none"/>
+      <rect x="0.5" y="0.5" width="72" height="72" fill="none"/>
+    </g>
+    <text id="GO_TOP-2" data-name="GO TOP" transform="translate(839 1123)" fill="#332c2c" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">GO TOP</tspan></text>
+    <path id="Icon_open-caret-top" data-name="Icon open-caret-top" d="M18,0,0,18H36Z" transform="translate(847 1086.5)"/>
+  </g>
+</svg>

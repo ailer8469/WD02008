@@ -1,0 +1,442 @@
+* {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  box-sizing: border-box;
+}
+
+body,html{
+  height: 100%;
+  background-image: linear-gradient(#c7c7c7 1px, transparent 0),
+    linear-gradient(90deg, #c7c7c7 1px, transparent 0);
+    background-size: 35px 35px;
+}
+
+/* menu */
+
+header{
+  display: flex;
+}
+
+.menuLine{
+  height: 100%;
+}
+.menu-wrap {
+  display: flex;
+  background-color: #FFDF00;
+  position: relative;
+  left: 0;
+  width: 300px;
+  height: 100%;
+}
+
+#header-pic {
+  position: fixed;
+  left: auto;
+  right: 285px;
+  z-index: 99;
+  height: 100%;
+  object-fit: cover;
+  width: 40px; 
+display: block;
+}
+.menu {
+  background-color:rgb(255, 255, 255);
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 98;
+  right: 0;
+  top: 0;
+}
+.here::before{
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-left-color: rgb(0, 0, 0);
+  position: absolute;
+  right: 235px;
+}
+.shadowborder {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  border: 12px solid #000;
+  border-right: 0 solid #000;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 100;
+}
+.menuLogo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuLogo img{
+  width: 75%;
+  display: block;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.menuLogo h3{
+  display: inline-block;
+  text-decoration: none;
+  color:#FFDF00;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 8px 25px;
+  border-radius: 15px;
+  letter-spacing: 3px;
+
+  background-color: #000000;
+}
+
+.menuLogo p{
+  width: 60%;
+  font-size: 10px;
+  display: block;
+  margin: auto;
+  color: rgb(78, 78, 78);
+}
+
+.menuLink{
+  margin-top: 20px;
+}
+
+.menuLink::after{
+  content: "";
+  display: block;
+  border-bottom: 1px solid rgb(88, 88, 88);
+  width: 85%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.menuLink ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menuLink li {
+  margin: 15px; 
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.menu-li-arrow{
+  position: absolute;
+  font-size: 16px;
+  line-height: 20px;
+  left: -30px;
+  top: calc(44px / 2 - 10px);
+}
+
+.menuLink li:hover{
+  transform: scale(1.2);
+  animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.menuLink a{
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 13px 45px;
+  border-radius: 10px;
+  border: 2px solid #565656;
+  background-color: #FFDF00;
+  box-shadow: 0px 3px 2px 0px #cccccc;   
+}
+.menu-social{
+  width: 70%;
+  background-color: #e7e7e7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 30px;
+}
+.menu-bt{
+  margin-bottom: 10px;
+}
+
+.menu-social-link{
+  margin: auto;
+  transition: 2s;
+}
+.menu-social-link img{
+  width: 50px;
+}
+
+.menu-social-link:hover{
+
+    animation-name:shake;
+    transform-origin:center bottom;
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  transition: ease-in;}
+  
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* 下拉内容（默认隐藏） */
+.dropdown-con {
+  display: none;
+  position: absolute;
+  background-color:#FFDF00;
+  width: max-content;
+  z-index: 1;
+}
+
+/* 下拉链接 */
+.dropdown-con a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+}
+
+/* 悬停时更改下拉链接的颜色 */
+.dropdown-con a:hover {
+  background-color: #000000;
+  color:#FFDF00;
+  font-size:inherit;
+}
+/* 悬停时显示下拉菜单 */
+.dropdown:hover .dropdown-con {
+  display: block;
+}
+
+/* 显示下拉内容时，更改下拉按钮的背景颜色 */
+.dropdown:hover .dropBt {
+  color: #30DCE1;
+}
+
+
+/* button */
+.explore{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(8, 8, 8);
+    background-color: #FFDF00;
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 25px 25px 15px 15px;
+    box-shadow: 0 10px #30DCE1; 
+    transition: 0.5s;
+    cursor: pointer;
+  }  
+.explore:active {
+    background-color: #FFDF00;
+    box-shadow: 0 5px #229a9f;
+    transform: translateY(5px);
+  }
+.explore:hover{
+  animation-name:shake;
+  transform-origin:center bottom;
+  cursor: pointer;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes upAnimation{
+  0%,100%,20%,50%,80% {transition-timing-function: cubic-bezier(0.215,.61,.355,1); 
+  transform: translate3d(0,0,0);
+  }
+  40%,43%{transition-timing-function: cubic-bezier(0.755,0.50,0.855,0.060);
+  transform: translate3d(0,-30px,0);
+  }
+  70%{transition-timing-function: cubic-bezier(0.755,0.050,0.855,0.060);
+  transform: translate3d(0,-15px,0);
+  }
+  90%{transform: translate3d(0,-4px,0);}
+  }
+
+
+  .shake {animation: shake 2s linear infinite;
+  }
+  @keyframes shake {
+    0%,100% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(2deg);
+    }
+    15%,25%,35% {
+      transform: rotate(-4deg);
+    }
+    20%,30%,40% {
+      transform: rotate(4deg);
+    }
+    45% {
+      transform: rotate(-2deg);
+    }
+    50% {
+      transform: rotate(2deg);
+    }
+    55%,90% {
+      transform: rotate(0deg);
+    }
+  }
+
+
+  .explore-black{
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:#FFDF00;
+    background-color: #000000;
+    border: 2px solid #FFDF00;
+    border-radius: 25px 25px 15px 15px;
+    box-shadow: 0 10px #30DCE1;   
+  }  
+.explore-black:active {
+    background-color: #000000;
+    box-shadow: 0 5px #30DCE1;
+    transform: translateY(5px);
+  }
+
+
+
+
+
+/* footer */
+
+
+.ft{
+  position: relative;
+  width: 100%;
+  padding: 50px 50px ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.turnup{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.gotop:hover{
+  cursor: pointer;
+}
+.gotop img:hover{
+  animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+/* The animation code */
+@keyframes move {
+  0%   {background-color:#FFDF00;}
+  25%  {background-color:transparent; }
+  50%  {background-color:#FFDF00;}
+  75%  {background-color:transparent; }
+  100% {background-color:#FFDF00;}
+}
+
+.turnup img{
+  width: 50px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+
+.ftBox{
+  width: 300px; 
+  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.ftBox-t{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ftBox h4{
+  background-color: #30DCE1;
+  text-align: center;
+  color: white;
+  display: inline;
+  padding: 7px 20px;
+  border: 2px solid rgb(69, 69, 69);
+}
+.ftBox-con{
+  width: 300px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(142, 142, 142);
+  margin-top: 20px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ftBox-con li{
+  font-style: normal;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin: 5px 0;
+}
+.ftBox-con img{
+  padding-right: 10px;
+
+}
+.ftBox-con span{
+  color: red;
+  font-weight: bolder;
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+.ftCopy{
+  width: 100%;
+  display: block;
+  padding-top: 10px;
+  height: 35px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 12px;
+}
+
+
+
+/* --------------RWD */
+.menu-768{
+  display: none;
+}
+

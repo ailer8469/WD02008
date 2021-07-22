@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="57.828" viewBox="0 0 74 57.828">
+  <g id="fbmark" transform="translate(-262 -1435.172)">
+    <path id="Icon_awesome-facebook" data-name="Icon awesome-facebook" d="M35.908,18.235A17.673,17.673,0,1,0,15.474,35.694V23.344H10.984V18.235h4.489V14.341c0-4.429,2.637-6.875,6.675-6.875a27.2,27.2,0,0,1,3.956.345v4.347H23.876A2.554,2.554,0,0,0,21,14.918v3.317h4.9l-.784,5.109H21v12.35A17.679,17.679,0,0,0,35.908,18.235Z" transform="translate(279.621 1434.609)" fill="#0043ff"/>
+    <text id="Facebook" transform="translate(262 1489)" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Facebook</tspan></text>
+  </g>
+</svg>

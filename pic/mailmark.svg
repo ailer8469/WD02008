@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="51.235" viewBox="0 0 49 51.235">
+  <g id="mailmark" transform="translate(-699 -1441.765)">
+    <path id="Icon_metro-mail" data-name="Icon metro-mail" d="M34.4,7.712H8.392a3.236,3.236,0,0,0-3.235,3.251L5.141,30.469A3.25,3.25,0,0,0,8.392,33.72H34.4a3.25,3.25,0,0,0,3.251-3.251V10.963A3.25,3.25,0,0,0,34.4,7.712Zm0,6.5-13,8.127-13-8.127V10.963l13,8.127,13-8.127v3.251Z" transform="translate(702.735 1434.053)" fill="red"/>
+    <text id="E-mail" transform="translate(699 1489)" font-size="17" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">E-mail</tspan></text>
+  </g>
+</svg>
