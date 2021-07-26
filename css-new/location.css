@@ -124,18 +124,21 @@ p:hover,h3:hover{
 }
 
 /* -------------------RWD--------- */
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1024px) {
 .local-con{
   flex-direction: column;
 }
 .swiper-container {
   width: 90%;}
+.local-box h2 {
+    text-align: center;  
+}
+.local-box h2:after {
+  margin: 10px auto;
+}
 }
 
 
-@media screen and (max-width:768px) {
-  
-}
 @media screen and (max-width:768px) {
   .game-section{
     width:100%;
@@ -200,7 +203,6 @@ p:hover,h3:hover{
 #burger_menu a:hover{
   color: #FFDF00;
 }
-/* ------------------------------------ */
 
 /* -----------------nav animation */
 .active {
@@ -234,29 +236,19 @@ to {height: 0px;}
     width: auto;
   }
   .local-box h2{
-    text-align: center
-  }
-  .local-box h2::after{
-    margin: auto;
-    padding-top: 20px;
+    padding: 20px;
   }
   .local-box{
-    width: 90%;
+    width: 100%;
   }
-  
+
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:375px) {
   .local-card{
     flex-direction: column;
   }
   .local-box h2 {
     padding: 50px 0px 20px;
-}
-
-.home {
-  font-size: 18px;
-  margin-top: 30px;
-  text-align: center;
 }
 .local-card-text h3 {
   margin-top: 30px;
@@ -268,5 +260,31 @@ to {height: 0px;}
 }
 .ftBox2{
   margin-top: 30px;
+}
+
+.local-card {
+  flex-direction: column;
+  margin-bottom: 50px auto;
+  padding: 0;
+}
+.home,.local-card-text h3 {
+padding-top: 20px;
+text-align: center;
+font-size: 18px;
+margin-top: 30px;
+}
+.local-con {
+margin: 10px;
+}
+.location{
+  padding: 60px 20px;
+}
+.local-title h1 {
+  padding: 12px;
+  font-size: 22px;
+  margin: 50px;
+}
+.home span{
+  display: block;
 }
 }

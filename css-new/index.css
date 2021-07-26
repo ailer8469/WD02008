@@ -479,9 +479,8 @@ transform: scale(1.1);
   pointer-events: none;
   z-index: 100;
 }
-
 /* --------------------RWD1080px */
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1024px) {
 
   .introGm-new {
     flex-direction: column;
@@ -493,7 +492,10 @@ transform: scale(1.1);
   .video-content {
     margin-top: -200px;}
 
-
+    #myVideo {
+      right: 200px;
+      position: relative;
+    }
 }
 /* --------------------RWD768px */
 @media screen and (max-width:768px) {
@@ -594,7 +596,7 @@ to {height: 0px;}
  .shadowborder {
   display: none;
 }
-   /* ------------------768---------------- */
+ /* ------------------768---------------- */
   .talk-con {
     width: 80%;
   }
@@ -620,7 +622,7 @@ to {height: 0px;}
 }
 
 /* ------------------------------------ */
-@media screen and (max-width:500px){
+@media screen and (max-width:375px){
 
   .introGm h2:after {
     width: 60%;
@@ -630,12 +632,44 @@ to {height: 0px;}
   .introGm h2{
     font-size: 27px;
     text-align: center;
+    padding: 50px 50px 20px;
+  }
+  .introGm-box {
+    padding: 0 50px;
   }
   .ftBox2{
     margin-top: 30px;
   }
   .video-content {
-    margin-top: -225px;
+      position: absolute;
+      bottom: 0;
 }
- 
+.video-content p {
+  width: 100%;
+}
+#myVideo {
+  left: -100%;
+  right: 0;}
+
+  #myBtn{
+    display: block;
+    margin: auto;
+  }
+  .video-content h4 {
+    text-align: center;
+}
+.introGm-title p {
+  padding: 0;
+  text-align: center;
+}
+.introGm-new {
+  padding: 10px 50px;
+  }
+  .talk p {
+    font-size: 23px;
+    padding: 10px 0;
+}
+.talk span {
+  font-size: 15px;
+}
 }

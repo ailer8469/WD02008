@@ -481,7 +481,7 @@ cursor: pointer;
 }
 
 /* -------------------RWD--------- */
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1024px) {
   .intro-text {
     flex-direction: column;
   }
@@ -646,7 +646,8 @@ width: auto;
 }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:375px) {
+
 
   .intro-box h3:after,.about-mem h2::after,.about-share h2::after {
     margin: auto;
@@ -655,11 +656,15 @@ width: auto;
   .intro-box h3,.about-mem h2{
     font-size: 27px;
     text-align: center;
+    padding: 70px 20px 0;
   }
   .ftBox2{
     margin-top: 30px;
   }
   .about-mem::before {
     height: 37vw;
+}
+.intro-text {
+  margin: 3px;
 }
 }

@@ -396,7 +396,7 @@ element.style {
 
 /* -------------------RWD--------- */
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1024px) {
     #menu {
         height: 30px;
         margin: 20px
@@ -521,10 +521,9 @@ element.style {
         }
     
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:375px) {
 .btn-hover {
     width: 160px; 
     margin: 20px auto;
-   
 }
 }

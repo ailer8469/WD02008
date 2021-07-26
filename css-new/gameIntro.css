@@ -434,9 +434,9 @@ line-height: 1.3;
 }
 
 /* -------------------RWD--------- */
-@media screen and (max-width:1080px) { 
+@media screen and (max-width:1024px) { 
   .bnr {
-    height: 300px;
+  height: 300px;
   padding-top: 0;
 margin-top: 0;
 padding-bottom: 0;}
@@ -472,7 +472,7 @@ padding-bottom: 0;}
 }
 @media screen and (max-width:940px) {
   .intro-con{
-  width: 90%;
+  width: 95%;
 }
 
 
@@ -601,17 +601,29 @@ to {height: 0px;}
   margin-left: 0;}
 
 .gameintro-detail {margin: 0 70px;}
+.bnr {
+margin-top: 100px;}
 }
 @media screen and (max-width:692px) {
   .ftBox2{
     margin-top: 30px;
   }
 }
- @media screen and (max-width:500px) {
+ @media screen and (max-width:375px) {
+  .intro {
+    padding: 12px;
+}
     .intro p {
       font-size: 17px;}
 
     .gamePic img {margin-left: -130px;}
     .gameintro-detail {margin: 0 55px;}
+    .gameintro-detail h4 {
+      margin: 40px auto;
+  }
+  .gameintro-detail h4:after, .gameintro-detail h5 {
+    width: 70%;
+    margin: 10px auto;
+}
     
 }
