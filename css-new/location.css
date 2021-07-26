@@ -139,7 +139,7 @@ p:hover,h3:hover{
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:828px) {
   .game-section{
     width:100%;
     height: 100%;

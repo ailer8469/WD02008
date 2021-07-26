@@ -207,7 +207,7 @@
     font-size: 18px;
 }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:828px) {
   .game-section{
     width:100%;
     height: 100%;
@@ -305,7 +305,7 @@ to {height: 0px;}
 
   .q-box-card {
     font-size: 17px;
-    margin: 20px;
+    margin: 0;
     width: auto;
 }
 .answers p{

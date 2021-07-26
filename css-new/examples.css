@@ -419,12 +419,31 @@ element.style {
         margin: 8px;}
 }
 
-@media screen and (max-width:768px) {
-
-    #menu{
+@media screen and (max-width:828px) {
+    .menu-wrap{
         display: none;
-    }
-    .game-section{
+      }
+      .shadowborder {display: none;}
+    
+      .header-768{
+        background-color:black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        z-index: 66;
+      }
+    
+      .header-768 img{
+        max-width: 250px;
+        padding: 20px;
+      }
+      .menu-768 {
+        display: block;
+      }
+      
+      .game-section{
         width:100%;
         height: 100%;
     }
@@ -493,7 +512,8 @@ element.style {
     .active {
     display: block !important;
     position: absolute;
-    margin-top: 75px;
+    padding: 10px;
+    top: 90px;
     width:calc(100vw+25px);
     animation: change 1s forwards;
     }
@@ -507,11 +527,12 @@ element.style {
     animation: goBack 1s forwards;}
     @keyframes goBack {
     from {height: 300px;}
-    to {height: 0px;}}
+    to {height: 0px;}
+    }
     
      /* ------------------------------------ */
-     .shadowborder {
-      display: none;
+    .shadowborder {
+    display: none;
     }
     .left .section {
         padding: 0 40px;}

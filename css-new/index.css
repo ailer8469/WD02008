@@ -498,7 +498,7 @@ transform: scale(1.1);
     }
 }
 /* --------------------RWD768px */
-@media screen and (max-width:768px) {
+@media screen and (max-width:828px) {
 
   .howStep-box-con button, .talk button{
     font-size: 20px;
