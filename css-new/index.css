@@ -617,8 +617,7 @@ to {height: 0px;}
   }
 
   #myVideo {
-    position: relative;
-    right: 30%;}
+    position: relative;}
 }
 
 /* ------------------------------------ */
@@ -648,8 +647,9 @@ to {height: 0px;}
   width: 100%;
 }
 #myVideo {
-  left: -100%;
-  right: 0;}
+  top: 80px;
+  margin-bottom: 50px;
+}
 
   #myBtn{
     display: block;
